@@ -11,6 +11,9 @@
   bat '''
     if EXIST src\\github.com\\keybase\\client\\desktop\\release rmdir /q /s src\\github.com\\keybase\\client\\desktop\\release
     :: Ongoing issues trying to build UI 
+    path
+    dir
+    dir doinstaller_wix.cmd /s /b
     git checkout src\\github.com\\keybase\\client\\shared
     git checkout src\\github.com\\keybase\\client\\desktop\\shared
   '''
